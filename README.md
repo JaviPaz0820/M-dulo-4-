@@ -6,9 +6,6 @@ Tecnologías utilizadas
 - CSS3
 - JavaScript
 
-Funcionalidades principales
-- Navegación clara y responsive
-
 Estructura del proyecto
 M4AE2 - ABP2 Javiera Ampuero/
 ├── EJERCICIO 1/
