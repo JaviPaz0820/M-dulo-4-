@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Subsidio de Arriendo - Ejercicio 2</title>
+  <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>¿Puedes postular al subsidio de arriendo?</h1>
+
+    <form id="formulario">
+      <label>Edad:</label>
+      <input type="number" id="edad" required>
+
+      <label>¿Tienes cédula vigente? (sí / no)</label>
+      <input type="text" id="cedula" required>
+
+      <label>Ahorro en UF:</label>
+      <input type="number" step="0.1" id="ahorro" required>
+
+      <label>¿Perteneces al 70% más vulnerable? (sí / no)</label>
+      <input type="text" id="registro" required>
+
+      <button type="button" onclick="verificar()">Verificar</button>
+    </form>
+
+    <p id="resultado"></p>
+  </div>
+
+  <script src="asset/js/script.js"></script>
+</body>
+</html>
