@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funciones en JavaScript</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Funciones en JavaScript</h1>
+
+    <div class="card">
+      <h2>1. Sumatoria 1 hasta n</h2>
+      <input type="number" id="sumatoriaInput" placeholder="Número (<100)">
+      <button onclick="ejecutarSumatoria()">Calcular</button>
+      <p id="sumatoriaResultado"></p>
+    </div>
+
+    <div class="card">
+      <h2>2. ¿Es Primo?</h2>
+      <input type="number" id="primoInput" placeholder="Número">
+      <button onclick="ejecutarPrimo()">Verificar</button>
+      <p id="primoResultado"></p>
+    </div>
+
+    <div class="card">
+      <h2>3. Cuenta regresiva</h2>
+      <input type="number" id="regresivaInput" placeholder="Número (<100)">
+      <button onclick="ejecutarRegresiva()">Mostrar</button>
+      <p id="regresivaResultado"></p>
+    </div>
+
+    <div class="card">
+      <h2>4. Sumatoria de pares</h2>
+      <input type="number" id="paresInput" placeholder="Número (10-1000)">
+      <button onclick="ejecutarPares()">Calcular</button>
+      <p id="paresResultado"></p>
+    </div>
+
+    <div class="card">
+      <h2>5. Tabla de multiplicar</h2>
+      <input type="number" id="tablaInput" placeholder="Número">
+      <button onclick="ejecutarTabla()">Mostrar</button>
+      <pre id="tablaResultado"></pre>
+    </div>
+
+    <div class="card">
+      <h2>6. Ordenar arreglo</h2>
+      <input type="text" id="arregloInput" placeholder="Ej: 5,3,8,1,9,2">
+      <button onclick="ejecutarOrdenar()">Ordenar</button>
+      <p id="arregloResultado"></p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
